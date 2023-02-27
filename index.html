@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify clone</title>
+  <link rel="icon" type="image/x-icon" href="images/spotifylogo.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <style>
+
+  </style>
+</head>
+
+<body>
+  <!-- navsection -->
+  <section>
+
+    <nav id="navbar">
+      <ul id="navlinks">
+        <li class="logo"><img src="images/spotifylogo.png" alt="Spotify">Spotify</li>
+        <li>Home</li>
+        <li>About</li>
+      </ul>
+    </nav>
+  </section>
+
+
+
+
+  <section id="container"><!-- container -->
+    <div id="playlist"><!-- div 1-->
+      <div class="playlist-item">
+        <img src="images/songs/song1.jpg" alt="">
+        <span class="songname">Let me love you</span>
+        <span class="song-duration"></span>
+          <i class="fa fa-play   playlist-btn"></i>
+        </span>
+      </div>
+      <div class="playlist-item">
+        <img src="images/songs/song1.jpg" alt="">
+        <span class="songname">Let me love you</span>
+        <span class="song-duration"></span>
+          <i class="fa fa-play   playlist-btn"></i>
+        </span>
+      </div>
+      <div class="playlist-item">
+        <img src="images/songs/song1.jpg" alt="">
+        <span class="songname">Let me love you</span>
+        <span class="song-duration"></span>
+          <i class="fa fa-play   playlist-btn"></i>
+        </span>
+      </div>
+      <div class="playlist-item">
+        <img src="images/songs/song1.jpg" alt="">
+        <span class="songname">Let me love you</span>
+        <span class="song-duration"></span>
+          <i class="fa fa-play   playlist-btn"></i>
+        </span>
+      </div>
+      
+    </div>
+    <!-- <div id="show-current-song">
+       <img src="images/songs/song1.jpg" alt="" id="show-current-song-img">
+    </div> -->
+  </section>
+  
+  
+  <div id="playaudio">
+    <input type="range" id="audioprogress-bar" min="0" value="0" max="100">
+    
+    <div id="playicons">
+      
+      <li class="fa fa-backward" id="previous-playbtn"></li>
+      <li class="fa fa-play" id="main-playbtn"></li>
+      <li class="fa fa-forward" id="next-playbtn"></li>
+    
+    </div>
+    <div id="songinfo">
+      <img src="images/playing.gif" alt="" width="100px" id="play-gif"> <span id="playing-songname" class="songname">Let me love you</span>
+    
+    </div>
+  
+  </div>
+  <!-- <li class="fa fa-backward"></li>
+  <li class="fa fa-pause" id="playbtn"></li>
+  <li class="fa fa-forward"></li> -->
+</body>
+<script src="script.js"></script>
+
+</html>
